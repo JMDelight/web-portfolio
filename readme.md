@@ -1,6 +1,6 @@
 # _My Portfolio Webpage_
 
-#### _This is a portfolio of my coding, 27 May 2016_
+#### _This is a website for a portfolio of my coding projects, 27 May 2016_
 
 #### By _**Joel Delight**_
 
@@ -15,7 +15,7 @@ _This is a webpage designed to allow anyone to easily see example of my coding_
 
 ## Known Bugs
 
-_There are no known issues with this page}_
+_There are no known issues with this page_
 
 ## Support and contact details
 
