@@ -2,6 +2,9 @@
 
 #### _This is a website for a portfolio of my coding projects, 27 May 2016_
 
+#### View this website on my [github pages][1]
+[1]: http://jmdelight.github.io/web-portfolio/ "Portfolio"
+
 #### By _**Joel Delight**_
 
 ## Description

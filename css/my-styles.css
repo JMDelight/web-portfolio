@@ -1,5 +1,33 @@
+body {
+  background-color: #CDC9C9;
+}
+
+
+
 .portrait {
   float:right;
   max-width: 200px;
 
+}
+
+p, a, li {
+  font-size: 20px !important;
+}
+
+ul.nav a:hover {
+  background-color: #473C8B;
+}
+
+.projects {
+  border: 2px solid #111;
+  background-color: #3B3178;
+}
+
+.project-list-item {
+  border: 2px solid #111;
+  margin: 10px;
+  background-color: #CDC9C9;
+
+  padding-left: 8px;
+  margin-left: 1px
 }
