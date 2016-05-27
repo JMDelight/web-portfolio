@@ -25,6 +25,19 @@ ul.nav a:hover {
   background-color: #473C8B;
 }
 
+
+
+.secret-btn {
+  background-color: #CDC9C9;
+  color: #CDC9C9;
+  float: right;
+  cursor: none;
+}
+
+.secret-btn:focus {
+  outline: none !important;
+}
+
 .projects {
   border: 2px solid #111;
   background-color: #3B3178;

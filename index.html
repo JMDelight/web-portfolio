@@ -68,6 +68,8 @@
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header">Joel Delight's programming portfolio</h1>
 
+
+
           <img class="portrait" src="img/joel.jpg" alt="a portrait of Joel Delight">
           <h2 id="bio"><strong>About me</strong></h2>
 
@@ -78,7 +80,7 @@
 
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut libero ligula. Curabitur dapibus lectus vitae euismod ornare. Nam congue nisl in volutpat fermentum. Nam egestas volutpat velit, sit amet dignissim ante mollis vitae. Sed elementum lorem id hendrerit convallis. Mauris dignissim nec augue vitae tempor. Donec porta nulla dignissim commodo accumsan. Nullam quis porta purus, eu faucibus metus. Cras odio nisl, sollicitudin in elit vitae, ullamcorper pretium massa. Fusce rhoncus sodales ipsum, nec semper nibh iaculis eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nec iaculis risus.</p>
 
-          <h2 class="sub-header" id="project">My Project's</h2>
+          <h2 class="sub-header" id="project">My Project's<button class="btn secret-btn" data-clipboard-text="You found the secret button!"></button> </h2>
           <div class="projects">
             <ol>
               <li id="The-Archies" class="project-list-item">
@@ -126,10 +128,7 @@
                 <p>This is a website I made with Sky Rousse as I was learning html.  We used html on this project.</p>
               </li>
             </ol>
-
           </div>
-
-
         </div>
       </div>
     </div>
@@ -138,11 +137,17 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../assets/js/vendor/holder.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/clipboard.min.js"></script>
+    <script>
+    var btns = document.querySelectorAll('button');
+    var clipboard = new Clipboard(btns);
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>
   </body>
 </html>
