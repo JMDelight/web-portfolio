@@ -6,14 +6,21 @@ body {
 
 .portrait {
   float:right;
-  max-width: 200px;
+  max-width: 250px;
+  padding-left: 10px;
+  padding-bottom: 5px;
 
 }
-
+.page-header, .sub-header {
+  border-bottom: 2px solid #111;
+}
 p, a, li {
   font-size: 20px !important;
 }
 
+.sidebar {
+  border-right: 3px solid #111;
+}
 ul.nav a:hover {
   background-color: #473C8B;
 }
