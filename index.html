@@ -14,32 +14,24 @@
   </head>
 
   <body>
-    <!-- navbar
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
-          </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
-          </form>
+
+    <!-- Modal -->
+    <div class="modal fade" id="secret-game">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+            <h4 class= "modal-title">You found the secret button!</h4>
+          </div>
+          <div class="modal-body">
+            <p>You found the secret button, congratulations!  I have placed a poem into your clipboard, enjoy!</p>
+          </div>
         </div>
       </div>
-    </nav>
-  -->
+    </div>
+
+
+
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
@@ -78,9 +70,40 @@
 
           <p>My interests include gaming- computer, tabletop and board; Music- listening, playing and composing; fencing, hiking, cooking, juggling and reading.</p>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut libero ligula. Curabitur dapibus lectus vitae euismod ornare. Nam congue nisl in volutpat fermentum. Nam egestas volutpat velit, sit amet dignissim ante mollis vitae. Sed elementum lorem id hendrerit convallis. Mauris dignissim nec augue vitae tempor. Donec porta nulla dignissim commodo accumsan. Nullam quis porta purus, eu faucibus metus. Cras odio nisl, sollicitudin in elit vitae, ullamcorper pretium massa. Fusce rhoncus sodales ipsum, nec semper nibh iaculis eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam nec iaculis risus.</p>
+          <p>I really enjoy games, so much so that I have made a very basic one on this page.  Somewhere on this page there is a button that is hidden.  Your objective is to find the button.  If you do I will reward you with a poem.<span class="hidden-xs">  Here is a hint, the button is very small, it is only about the size of this letter 'm'. Also, the mouse acts kind of funny when it is hovering over the button.  I will tell you when you find it.  <span class="fun-times">Happy hunting</span></p></span>
+          <p class ="visible-xs-block"> Sadly, your device is too small for this game's reward to work well, please try it in a larger window on your computer.</p>
+          <h2 class="sub-header" id="project">My Project's<button class="btn secret-btn hidden-xs" data-toggle="modal" href="#secret-game" data-clipboard-text="
+The Siege of Belgrade
 
-          <h2 class="sub-header" id="project">My Project's<button class="btn secret-btn" data-clipboard-text="You found the secret button!"></button> </h2>
+An Austrian army, awfully arrayed,
+Boldly by battery besieged Belgrade.
+Cossack commanders cannonading come,
+Dealing destruction's devastating doom.
+Every endeavor engineers essay,
+For fame, for fortune fighting - furious fray!
+Generals 'gainst generals grapple - gracious God!
+How honors Heaven heroic hardihood!
+Infuriate, indiscrminate in ill,
+Kindred kill kinsmen, kinsmen kindred kill.
+Labor low levels longest, lofiest lines;
+Men march 'mid mounds, 'mid moles, ' mid murderous mines;
+Now noxious, noisey numbers nothing, naught
+Of outward obstacles, opposing ought;
+Poor patriots, partly purchased, partly pressed,
+Quite quaking, quickly 'Quarter! Quarter!' quest.
+Reason returns, religious right redounds,
+Suwarrow stops such sanguinary sounds.
+Truce to thee, Turkey! Triumph to thy train,
+Unwise, unjust, unmerciful Ukraine!
+Vanish vain victory! vanish, victory vain!
+Why wish we warfare? Wherefore welcome were
+Xerxes, Ximenes, Xanthus, Xavier?
+Yield, yield, ye youths! ye yeomen, yield your yell!
+Zeus', Zarpater's, Zoroaster's zeal,
+Attracting all, arms against acts appeal!
+
+by Alaric Alexander Watts">
+          </button> </h2>
           <div class="projects">
             <ol>
               <li id="The-Archies" class="project-list-item">
@@ -88,7 +111,7 @@
                 <p>This is a website I made with Callan Mcnulty for the band <em>The Archies</em>. We used html and css. </p>
               </li>
               <li id="spurious-correlations" class="project-list-item">
-                <h4><a href="http://jmdelight.github.io/spurious correlations">Spurious Correlations Explored</a></h4>
+                <h4><a href="http://jmdelight.github.io/spurious-correlations">Spurious Correlations Explored</a></h4>
                 <p>This is a website I made with Sky Rousse as I was learning html.  We used html on this project.  All images and facts used in this site are from the website <a href="http://www.tylervigen.com/spurious-correlations">Spurious Correlations</a>.</p>
               </li>
               <li id="resort-page" class="project-list-item">
