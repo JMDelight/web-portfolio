@@ -2,8 +2,6 @@ body {
   background-color: #CDC9C9;
 }
 
-
-
 .portrait {
   float:right;
   max-width: 250px;
@@ -14,13 +12,19 @@ body {
 .page-header, .sub-header {
   border-bottom: 2px solid #111;
 }
+
 p, a, li {
-  font-size: 20px !important;
+  font-size: 20px;
+}
+
+.main {
+  max-width: 1653px;
 }
 
 .sidebar {
   border-right: 3px solid #111;
 }
+
 ul.nav a:hover {
   background-color: #473C8B;
 }
@@ -31,7 +35,7 @@ ul.nav a:hover {
 }
 
 .secret-btn {
-  background-color: #CDC9C9;
+  background-color: #111;
   color: #CDC9C9;
   float: right;
   cursor: none;
@@ -50,7 +54,6 @@ ul.nav a:hover {
   border: 2px solid #111;
   margin: 10px;
   background-color: #CDC9C9;
-
   padding-left: 8px;
   margin-left: 1px
 }
